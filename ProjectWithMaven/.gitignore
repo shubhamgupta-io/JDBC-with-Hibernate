@@ -1,0 +1,29 @@
+# Maven target directory
+target/
+
+# Maven specific files
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# Eclipse specific files (if you're switching between IDEs)
+.project
+.classpath
+.settings/
+
+# Logs and temporary files
+*.log
+logs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
