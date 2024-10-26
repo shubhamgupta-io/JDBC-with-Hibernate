@@ -13,7 +13,7 @@ public class FetchDemo {
         SessionFactory factory = cfg.buildSessionFactory();
         Session session = factory.openSession();
         
-        //get-student:101
+        //load-student:101
         Student student = (Student) session.load(Student.class, 101);
         System.out.println(student);
         
